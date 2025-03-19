@@ -1,49 +1,45 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>LTVABC WEBPAGE</title>
-
         <link rel="icon" href="image/icons8-dungeons-and-dragons-240.png" type="image/x-icon">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: #f4f4f4;
+            }
+            
+            .image-box {
+                position: absolute;
+                top: 10%;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 400px;
+                height: 200px;
+                background-image: url('image/panda.jpg');
+                background-size: cover;
+                background-position: center;
+                border: 2px solid #333;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+        </style>
 
+
+
+        
     </head>
 
     <body style="background-color:mistyrose;">
-        
-        <h1 style="text-align: center;">LTVABC Webpage</h1>
-
-        <form>
-            <p>Username: <input type="text"></p>
-
-            <p>Stay logged in <input type="checkbox"></p>
-
-            <p>Under 18: <input type="radio" name="age"></p>
-
-            <p>Over 18: <input type="radio" name="age"></p>
-            
-            <p>
-                <select> 
-                    <option>Pizza</option>
-                    <option>Burger</option>
-                    <option>Ice Cream</option>
-                    <option>Sandwich</option>
-                    <option>Spagetti</option>
-                </select>
-            </p>
-            
-            <p><input type="submit"></p>
-            
-        </form>
-
-        <a href="https://www.youtube.com/shorts/SXHMnicI6Pg">Click Here</a>
-
-        <p style="color:red"> This is a somewhat green paragraph</p>
-
-        <img src="image/panda.jpg" alt="Panda Picture">
-
+        <div class="image-box"></div>
 
     </body>
-
-
 
 
 </html>
